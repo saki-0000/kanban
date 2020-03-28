@@ -2,6 +2,7 @@ from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm
 from django.shortcuts import render, redirect
 
+# git@github.com:saki-0000/kanban.git
 def index(request):
     return render(request, "kanban/index.html")
 def home(request):
