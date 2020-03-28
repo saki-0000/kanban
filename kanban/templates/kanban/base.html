@@ -26,7 +26,7 @@
               こんにちは {{ request.user.username }} さん
             </span>
             <li class="navbar-item">
-              <a class="navbar-link" href="{% url 'kanban:logout' %}">ログアウト</a>
+              <a class="navbar-link" href="{% url 'logout' %}">ログアウト</a>
             </li>
             {% else %}
             <li class="navbar-item">
