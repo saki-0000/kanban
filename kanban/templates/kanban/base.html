@@ -27,6 +27,9 @@
                 {{ request.user.username }} </a>
             </li>
             <li class="navbar-item">
+              <a class="navbar-link" href="{% url 'lists_list' %}">リスト一覧</a>
+            </li>
+            <li class="navbar-item">
               <a class="navbar-link" href="{% url 'logout' %}">ログアウト</a>
             </li>
             {% else %}
